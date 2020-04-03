@@ -12,12 +12,12 @@ Architecture Exploration starting from Transformer with similar scale of network
 
 ｜Architecture             ｜  WMT14 en-de  ｜    BLEU-tool ｜
 ｜--- ｜ --- ｜ --- ｜
-｜Transformer[1]           ｜    28.4       ｜    not mention｜
-｜Relative Transfromer[2]  ｜    29.2       ｜    not mention｜
+｜Transformer[1]           ｜    28.4       ｜    \*multi-bleu｜
+｜Relative Transfromer[2]  ｜    29.2       ｜    \*multi-bleu｜
 ｜DynamicConv[3]           ｜    29.7       ｜    multi-bleu｜
 ｜Evolved Transformer[4]   ｜    29.8       ｜    multi-bleu｜
-｜Macaron Net[5]           ｜    30.2       ｜    not mention｜
-
+｜Macaron Net[5]           ｜    30.2       ｜    \*multi-bleu｜
+\* means that it is not mentioned in the paper and we guess from their codes.
 
 [1] Ashish Vaswani , Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser and Illia Polosukhin. 2017. Attention Is All You Need. In Proc. of NIPS 2017.\
 [2] Peter Shaw, Jakob Uszkoreit and Ashish Vaswani. 2018. Self-Attention with Relative Position Representations. In Proc. of NAACL 2018.\

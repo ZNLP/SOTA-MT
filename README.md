@@ -48,7 +48,7 @@ Given an image and its text description as source language, the task of image-te
 # Document-level Neural Machine Translation
 In general, document-level machine translation aims at exploiting the useful document-level information (multiple sentences around the current sentence or the whole document) to improve the translation quality of the current sentence as well as the coherence and cohension of the translated document. Unfortunately, there is no widely used dataset in document-level translation.
 
-## Evaluation on BLEU
+### Evaluation on BLEU
 In 2019, Maruf et al. evaluated their method on three diverse datasets on English-German translation including TED, NEWS and Europarl. Below we show the training/development/test corpora statistics of the datasets (Docuemnt Length denotes average sentence number in each document).
 
 | Domain  | #Sentences      | Document Length    |
@@ -68,7 +68,7 @@ We list several recent BLEU results on these datasets as follows.
 
 \* means that the resutls are not reported in the original paper but are reimplemented by Maruf et al. (2019).
 
-## Evaluation on Discourse Phenomena
+### Evaluation on Discourse Phenomena
 In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafted test sets to evaluate discourse phenomena. The performances of differentm methods on various discourse phenomena are listed in the following table.
 
 | Model         | BLEU  | Deixis(%) | Lexical cohesion(%) | Ellipsis inflection(%) | Ellipsis VP(%) |

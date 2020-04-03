@@ -18,12 +18,12 @@ Architecture Exploration starting from Transformer with similar scale of network
 | Macaron Net[5]          | 30.2        | not mention |
 
 ｜ Architecture            ｜  WMT14 en-de  ｜    BLEU-tool ｜
-｜ ----------------------- ｜ --------------｜ -------------｜
-｜Transformer[2]           ｜    28.4       ｜    \*multi-bleu｜
-｜Relative Transfromer[3]  ｜    29.2       ｜    \*multi-bleu｜
-｜DynamicConv[4]           ｜    29.7       ｜    multi-bleu｜
-｜Evolved Transformer[5]   ｜    29.8       ｜    multi-bleu｜
-｜Macaron Net[6]           ｜    30.2       ｜    \*multi-bleu｜
+｜ ----------------------- ｜ ------------- ｜ ------------ ｜
+｜ Transformer[2]          ｜ 28.4          ｜ \*multi-bleu ｜
+｜ Relative Transfromer[3] ｜ 29.2          ｜ \*multi-bleu ｜
+｜ DynamicConv[4]          ｜ 29.7          ｜ multi-bleu   ｜
+｜ Evolved Transformer[5]  ｜ 29.8          ｜ multi-bleu   ｜
+｜ Macaron Net[6]          ｜ 30.2          ｜ \*multi-bleu ｜
 \* means that it is not mentioned in the paper and we guess from their codes.
 
 [1] Matt Post. A Call for Clarity in Reporting BLEU Scores. In Proc. of WMT 2018.\

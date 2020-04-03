@@ -17,7 +17,7 @@ Architecture Exploration starting from Transformer with similar scale of network
 | Evolved Transformer[4]  | 29.8        | multi-bleu  |
 | Macaron Net[5]          | 30.2        | not mention |
 
-｜ Architecture            ｜ WMT14 en-de   ｜ BLEU-tool ｜
+｜ Architecture            ｜ WMT14 en-de   ｜ BLEU-tool    ｜
 ｜ ----------------------- ｜ ------------- ｜ ------------ ｜
 ｜ Transformer[2]          ｜ 28.4          ｜ \*multi-bleu ｜
 ｜ Relative Transfromer[3] ｜ 29.2          ｜ \*multi-bleu ｜

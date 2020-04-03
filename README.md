@@ -1,11 +1,14 @@
 # SOTA-MT
 This project attempts to maintain the SOTA performance in machine translation.
 
+# Introduction
 Machine translation has entered the era of neural methods, which attracts more and more researchers. Currently, hundreds of MT papers are published each year and it is a bit difficult for researchers to know the SOTA models in each research direction. Accordingly, we try to record the SOTA performance in this project.
 
 There are several research directions in neural machine translation, including architecture design, multimodal translation, speech and simultaneuous translation, document translation, multilingual translation, semi-supervised translation, unsupervised translation, domain adaptation, non-autoregressive translation and etc. It is a pity that there is no widely used benchmark datasets in many research tasks such as document translation, multilingual translation and domain adaptation. Thus, we try our best to record the SOTA performance for the tasks in which there is dataset employed by several papers.
 
 Note that we would definitely miss some new SOTA model and please remind us if you know. Furthermore, it is the best way to employ SacreBLEU[1] to report BLEU scores for fair comparison on widely used datasets. However, many papers do not apply it.
+
+# Architecture Design
 
 Architecture Exploration starting from Transformer with similar scale of network parameters. We use the dataset WMT14 en-de and detokenized case-sensitive BLEU for comparison.
 

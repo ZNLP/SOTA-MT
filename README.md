@@ -10,7 +10,7 @@ Note that we would definitely miss some new SOTA model and please remind us if y
 
 # Architecture Design
 
-Architecture Exploration starting from Transformer with similar scale of network parameters. We use the dataset WMT14 en-de and detokenized case-sensitive BLEU for comparison.
+We report architecture exploration starting from Transformer with similar scale of network parameters. We use the widely used dataset WMT14 en-de and detokenized case-sensitive BLEU for comparison.
 
 | Architecture            | WMT14 en-de | BLEU-tool   |
 | ----------------------- | ----------- | ----------- |
@@ -19,7 +19,6 @@ Architecture Exploration starting from Transformer with similar scale of network
 | DynamicConv[4]          | 29.7        | multi-bleu  |
 | Evolved Transformer[5]  | 29.8        | multi-bleu  |
 | Macaron Net[6]          | 30.2        | \*multi-bleu |
-
 \* means that it is not mentioned in the paper and we guess from their codes.
 
 [1] Matt Post. A Call for Clarity in Reporting BLEU Scores. In Proc. of WMT 2018.\

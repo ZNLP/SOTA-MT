@@ -54,7 +54,7 @@ In general, document-level machine translation aims at exploiting the useful doc
 | News    | 0.24M/2k/3k     | 38.93/26.78/19.35  |
 | Europal | 1.67M/3.6K/5.1K | 14.14/14.95/14.06  |
 
-We list several recent results on these datasets as follows.
+We list several recent BLEU results on these datasets as follows.
 
 | Model                | TED   | News  | Europarl |
 | -------------------- | ----- | ----- | -------- |
@@ -63,7 +63,7 @@ We list several recent results on these datasets as follows.
 | SAN-Doc[12]          | 24.42 | 24.84 | 29.75    |
 | Capsule-Doc[13]      | 25.19 | 22.37 | 29.82    |
 
-* means that the resutls are not reported in the original paper but are reimplemented by Maruf et al. (2019).
+\* means that the resutls are not reported in the original paper but are reimplemented by Maruf et al. (2019).
 
 [10] Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.
 [11] Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas and James Henderson. 2018. Document-level neural machine translation with hierarchical attention networks. In Proc. of EMNLP 2018.

@@ -38,7 +38,7 @@ Given an image and its text description as source language, the task of image-te
 | ----------------------- | ----------- |
 | Double Attention[7]     | 36.5        |
 | Imagination[8]          | 36.8        |
-| VariationalMMT[9]       | 30.7        |
+| VariationalMMT[9]       | 37.7        |
 
 
 [7] Iacer Calixto, Qun Liu, and Nick Campbell. 2017. Doubly-Attentive Decoder for Multi-modal Neural Machine Translation. In Proc. of ACL 2017.\

@@ -19,6 +19,7 @@ We report architecture exploration starting from Transformer with similar scale 
 | DynamicConv[4]          | 29.7        | multi-bleu  |
 | Evolved Transformer[5]  | 29.8        | multi-bleu  |
 | Macaron Net[6]          | 30.2        | \*multi-bleu |
+
 \* means that it is not mentioned in the paper and we guess from their codes.
 
 [1] Matt Post. A Call for Clarity in Reporting BLEU Scores. In Proc. of WMT 2018.\

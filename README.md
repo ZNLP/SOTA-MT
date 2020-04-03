@@ -9,6 +9,13 @@ Note that we would definitely miss some new SOTA model and please remind us if y
 
 Architecture Exploration starting from Transformer with similar scale of network parameters. We use the dataset WMT14 en-de and detokenized case-sensitive BLEU for comparison.
 
+| Architecture            | WMT14 en-de | BLEU-tool   |
+| ----------------------- | ----------- | ----------- |
+| Transformer[1]          | 28.4        | not mention |
+| Relative Transfromer[2] | 29.2        | not mention |
+| DynamicConv[3]          | 29.7        | multi-bleu  |
+| Evolved Transformer[4]  | 29.8        | multi-bleu  |
+| Macaron Net[5]          | 30.2        | not mention |
 
 ｜Architecture             ｜  WMT14 en-de  ｜    BLEU-tool ｜
 ｜-------------------------\----------------｜--------------｜

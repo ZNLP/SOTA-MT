@@ -10,7 +10,7 @@ Note that we would definitely miss some new SOTA model and please remind us if y
 
 # Architecture Design
 
-We report architecture exploration starting from Transformer with similar scale of network parameters. We use the widely used dataset WMT14 en-de and detokenized case-sensitive BLEU for comparison.
+We report architecture exploration starting from Transformer with nearly the same scale of network parameters. We use the widely used dataset WMT14 en-de and detokenized case-sensitive BLEU for comparison.
 
 | Architecture            | WMT14 en-de | BLEU-tool   |
 | ----------------------- | ----------- | ----------- |
@@ -32,7 +32,7 @@ We report architecture exploration starting from Transformer with similar scale 
 # Multimodal Translation
 Generally speaking, multimodal translation addresses the translation task in which text, image and speech are all available. Currently, multimodal translation specially refers to pair image-text translation.
 
-Given an image and its text description as source language, the task of image-text translation aims at translating the description in source language into the target language, where the translation process can be supported by information from the paired image. It is a task requiring the intergration of natural language processing and computer vison. The dataset Multi30K is widely used in this task and and the English description of each image is translated into German (and other languages in recent years). we report some SOTA models on Multi30K en-de 2016 testset below (case-insensitive tokenized BLEU).
+Given an image and its text description as source language, the task of image-text translation aims at translating the description in source language into the target language, where the translation process can be supported by information from the paired image. It is a task requiring the intergration of natural language processing and computer vison. The dataset Multi30K is widely used in this task and and the English description of each image is translated into German (and other languages in recent years). we report some SOTA models on Multi30K en-de 2016 testset below (case-insensitive tokenized BLEU). 
 
 | Model                   | Multi30K    |
 | ----------------------- | ----------- |
@@ -45,6 +45,31 @@ Given an image and its text description as source language, the task of image-te
 [8] Desmond Elliott and Akos Kadar. 2017. Imagination Improves Multimodal Translation. In Proc. of IJCNLP 2017.\
 [9] Iacer Calixto, Miguel Rios, and Wilker Aziz. 2019. Latent Variable Model for Multi-modal Translation. In Proc. of ACL 2019.
 
+# Document-level Neural Machine Translation
+In general, document-level machine translation aims at exploiting the useful document-level information (multiple sentences around the current sentence or the whole document) to improve the translation quality of the current sentence as well as the coherence and cohension of the translated document. Unfortunately, there is no widely used dataset in document-level translation. In 2019, Maruf et al. evaluated their method on three diverse datasets on English-German translation including TED, NEWS and Europarl. Below we show the training/development/test corpora statistics of the datasets (Docuemnt Length denotes average sentence number in each document).
 
+| Domain  | #Sentences      | Document Length    |
+| ------- | --------------- | ------------------ |
+| TED     | 0.21M/9K/2.3K   | 120.89/96.42/98.74 |
+| News    | 0.24M/2k/3k     | 38.93/26.78/19.35  |
+| Europal | 1.67M/3.6K/5.1K | 14.14/14.95/14.06  |
+
+We list several recent results on these datasets as follows.
+
+| Model                | TED   | News  | Europarl |
+| -------------------- | ----- | ----- | -------- |
+| *Transformer-Doc[10] | 24.00 | 23.08 | 29.32    |
+| *HAN-Doc[11]         | 24.58 | 25.03 | 28.60    |
+| SAN-Doc[12]          | 24.42 | 24.84 | 29.75    |
+| Capsule-Doc[13]      | 25.19 | 22.37 | 29.82    |
+
+* means that the resutls are not reported in the original paper but are reimplemented by Maruf et al. (2019).
+
+[10] Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.
+[11] Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas and James Henderson. 2018. Document-level neural machine translation with hierarchical attention networks. In Proc. of EMNLP 2018.
+[12] Sameen Maruf, Andr´e FT Martins and Gholamreza Haffari. 2019. Selective attention for context-aware neural machine translation. In Proc. of NAACL 2019.
+[13] Zhengxin Yang, Jinchao Zhang, Fandong Meng, Shuhao Gu, Yang Feng and Jie Zhou. 2019. Enhancing context modeling with a query-guided capsule network for document-level translation. In Proc. of EMNLP 2019.
+[14] Elena Voita, Rico Sennrich and Ivan Titov. 2019. When a good translation is wrong in context: Context-aware machine translation improves on deixis, ellipsis, and lexical cohesion. In Proc. of ACL 2019.
+[15] Elena Voita, Rico Sennrich and Ivan Titov. 2019. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.
 
 

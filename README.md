@@ -34,7 +34,7 @@ Generally speaking, multimodal translation addresses the translation task in whi
 
 Given an image and its text description as source language, the task of image-text translation aims at translating the description in source language into the target language, where the translation process can be supported by information from the paired image. It is a task requiring the intergration of natural language processing and computer vison. The dataset Multi30K is widely used in this task and and the English description of each image is translated into German (and other languages in recent years). we report some SOTA models on Multi30K en-de 2016 testset below (case-insensitive tokenized BLEU).
 
-| Model.                  | Multi30K    |
+| Model                   | Multi30K    |
 | ----------------------- | ----------- |
 | Double Attention[7]     | 36.5        |
 | Imagination[8]          | 36.8        |

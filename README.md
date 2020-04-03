@@ -46,7 +46,10 @@ Given an image and its text description as source language, the task of image-te
 [9] Iacer Calixto, Miguel Rios, and Wilker Aziz. 2019. Latent Variable Model for Multi-modal Translation. In Proc. of ACL 2019.
 
 # Document-level Neural Machine Translation
-In general, document-level machine translation aims at exploiting the useful document-level information (multiple sentences around the current sentence or the whole document) to improve the translation quality of the current sentence as well as the coherence and cohension of the translated document. Unfortunately, there is no widely used dataset in document-level translation. In 2019, Maruf et al. evaluated their method on three diverse datasets on English-German translation including TED, NEWS and Europarl. Below we show the training/development/test corpora statistics of the datasets (Docuemnt Length denotes average sentence number in each document).
+In general, document-level machine translation aims at exploiting the useful document-level information (multiple sentences around the current sentence or the whole document) to improve the translation quality of the current sentence as well as the coherence and cohension of the translated document. Unfortunately, there is no widely used dataset in document-level translation.
+
+## Evaluation on BLEU
+In 2019, Maruf et al. evaluated their method on three diverse datasets on English-German translation including TED, NEWS and Europarl. Below we show the training/development/test corpora statistics of the datasets (Docuemnt Length denotes average sentence number in each document).
 
 | Domain  | #Sentences      | Document Length    |
 | ------- | --------------- | ------------------ |
@@ -64,6 +67,16 @@ We list several recent BLEU results on these datasets as follows.
 | Capsule-Doc[13]      | 25.19 | 22.37 | 29.82    |
 
 \* means that the resutls are not reported in the original paper but are reimplemented by Maruf et al. (2019).
+
+## Evaluation on Discourse Phenomena
+In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafted test sets to evaluate discourse phenomena. The performances of differentm methods on various discourse phenomena are listed in the following table.
+
+| Model         | BLEU  | Deixis(%) | Lexical cohesion(%) | Ellipsis inflection(%) | Ellipsis VP(%) |
+| ------------- | ----- | --------- | ------------------- | ---------------------- | -------------- |
+| Transformer   | 33.91 | 50.0      | 45.9                | 53.0                   | 28.4           |
+| CADec[14]     | 33.86 | 81.6      | 58.1                | 72.2                   | 80.0           |
+| DocRepair[15] | 34.60 | 91.8      | 80.6                | 86.4                   | 75.2           |
+
 
 [10] Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.\
 [11] Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas and James Henderson. 2018. Document-level neural machine translation with hierarchical attention networks. In Proc. of EMNLP 2018.\

@@ -39,11 +39,13 @@ Given an image and its text description as source language, the task of image-te
 | Double Attention[7]     | 36.5        |
 | Imagination[8]          | 36.8        |
 | VariationalMMT[9]       | 37.7        |
+| DistillingMMT[10]       | 38.0        |
 
 
 [7] Iacer Calixto, Qun Liu, and Nick Campbell. 2017. Doubly-Attentive Decoder for Multi-modal Neural Machine Translation. In Proc. of ACL 2017.\
 [8] Desmond Elliott and Akos Kadar. 2017. Imagination Improves Multimodal Translation. In Proc. of IJCNLP 2017.\
 [9] Iacer Calixto, Miguel Rios, and Wilker Aziz. 2019. Latent Variable Model for Multi-modal Translation. In Proc. of ACL 2019.
+[10] Julia Ive, Pranava Madhyastha and Lucia Specia. Distilling Translations with Visual Awareness. In Proc. of ACL 2019.
 
 # Document-level Neural Machine Translation
 In general, document-level machine translation aims at exploiting the useful document-level information (multiple sentences around the current sentence or the whole document) to improve the translation quality of the current sentence as well as the coherence and cohension of the translated document. Unfortunately, there is no widely used dataset in document-level translation.
@@ -61,10 +63,10 @@ We list several recent BLEU results on these datasets as follows.
 
 | Model                | TED   | News  | Europarl |
 | -------------------- | ----- | ----- | -------- |
-| *Transformer-Doc[10] | 24.00 | 23.08 | 29.32    |
-| *HAN-Doc[11]         | 24.58 | 25.03 | 28.60    |
-| SAN-Doc[12]          | 24.42 | 24.84 | 29.75    |
-| Capsule-Doc[13]      | 25.19 | 22.37 | 29.82    |
+| *Transformer-Doc[11] | 24.00 | 23.08 | 29.32    |
+| *HAN-Doc[12]         | 24.58 | 25.03 | 28.60    |
+| SAN-Doc[13]          | 24.42 | 24.84 | 29.75    |
+| Capsule-Doc[14]      | 25.19 | 22.37 | 29.82    |
 
 \* means that the resutls are not reported in the original paper but are reimplemented by Maruf et al. (2019).
 
@@ -74,15 +76,15 @@ In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafte
 | Model         | BLEU  | Deixis(%) | Lexical cohesion(%) | Ellipsis inflection(%) | Ellipsis VP(%) |
 | ------------- | ----- | --------- | ------------------- | ---------------------- | -------------- |
 | Transformer   | 33.91 | 50.0      | 45.9                | 53.0                   | 28.4           |
-| CADec[14]     | 33.86 | 81.6      | 58.1                | 72.2                   | 80.0           |
-| DocRepair[15] | 34.60 | 91.8      | 80.6                | 86.4                   | 75.2           |
+| CADec[15]     | 33.86 | 81.6      | 58.1                | 72.2                   | 80.0           |
+| DocRepair[16] | 34.60 | 91.8      | 80.6                | 86.4                   | 75.2           |
 
 
-[10] Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.\
-[11] Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas and James Henderson. 2018. Document-level neural machine translation with hierarchical attention networks. In Proc. of EMNLP 2018.\
-[12] Sameen Maruf, Andr´e FT Martins and Gholamreza Haffari. 2019. Selective attention for context-aware neural machine translation. In Proc. of NAACL 2019.\
-[13] Zhengxin Yang, Jinchao Zhang, Fandong Meng, Shuhao Gu, Yang Feng and Jie Zhou. 2019. Enhancing context modeling with a query-guided capsule network for document-level translation. In Proc. of EMNLP 2019.\
-[14] Elena Voita, Rico Sennrich and Ivan Titov. 2019. When a good translation is wrong in context: Context-aware machine translation improves on deixis, ellipsis, and lexical cohesion. In Proc. of ACL 2019.\
-[15] Elena Voita, Rico Sennrich and Ivan Titov. 2019. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.
+[11] Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.\
+[12] Lesly Miculicich, Dhananjay Ram, Nikolaos Pappas and James Henderson. 2018. Document-level neural machine translation with hierarchical attention networks. In Proc. of EMNLP 2018.\
+[13] Sameen Maruf, Andr´e FT Martins and Gholamreza Haffari. 2019. Selective attention for context-aware neural machine translation. In Proc. of NAACL 2019.\
+[14] Zhengxin Yang, Jinchao Zhang, Fandong Meng, Shuhao Gu, Yang Feng and Jie Zhou. 2019. Enhancing context modeling with a query-guided capsule network for document-level translation. In Proc. of EMNLP 2019.\
+[15] Elena Voita, Rico Sennrich and Ivan Titov. 2019. When a good translation is wrong in context: Context-aware machine translation improves on deixis, ellipsis, and lexical cohesion. In Proc. of ACL 2019.\
+[16] Elena Voita, Rico Sennrich and Ivan Titov. 2019. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.
 
 

@@ -100,7 +100,7 @@ Different from autoregressive left-to-right decoding, non-autoregressive Transfo
 | #Imitate-NAT[21] | 22.44 | 18.6×  |
 | *ReorderNAT[22]  | 22.79 | 16.1×  |
 
-\* denotes that the authors did not report the performance of their NAT reimplementation. # denotes that the authors reported their NAT reimplementation and the BLEU score is 19.69 on WMT14 en-de.
+\* denotes that the authors did not report the performance of their NAT reimplementation on test sets. # denotes that the authors reported their NAT reimplementation and the BLEU score is 19.69 on WMT14 en-de.
 
 
 [17 Jiatao Gu, James Bradbury, Caiming Xiong, Victor OK Li and Richard Socher. 2018. Non-autoregressive Neural Machine Translation. In Proc. of ICLR 2018. \

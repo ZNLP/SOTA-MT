@@ -136,4 +136,4 @@ Unsupervised neural machine translation (UNMT) addresses a very chellenging scen
 
 
 ## Notes
-This project is launched by Jiajun Zhang. If you have questions or comments, please drop an email to jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com.
+This project is launched by Jiajun Zhang and maintained by the MT team members in CASIA. If you have questions or comments, please drop an email to jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com.

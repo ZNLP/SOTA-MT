@@ -88,7 +88,7 @@ In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafte
 [16] Elena Voita, Rico Sennrich and Ivan Titov. 2019. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.
 
 # 5. Non-autoregressive Transformer
-Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list some SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT 14 en-de dataset. Transformer employs the base model.
+Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list some SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT14 en-de dataset. Transformer employs the base model.
 
 | Model            | BLEU  | Speedup |
 | ---------------- | ----- | ------- |
@@ -109,6 +109,28 @@ Different from autoregressive left-to-right decoding, non-autoregressive Transfo
 [20] Zhuohan Li, Zi Lin, Di He, Fei Tian, Tao Qin, Liwei Wang and Tie-Yan Liu. 2019. Hint-based training for non-autoregressive machine translation. In Proc. of EMNLP 2019. \
 [21] Bingzhen Wei, Mingxuan Wang, Hao Zhou, Junyang Lin and Xu Sun. 2019. Imitation Learning for Non-autoregressive Neural Machine Translation. In Proc. of ACL 2019. \
 [22] Qiu Ran, Yankai Lin, Peng Li and Jie Zhou. 2019. Guiding Non-Autoregressive Neural Machine Translation Decoding with Reordering Information. arXiv:1911.02215.
+
+
+# 6. Unsupervised Neural Machine Translation
+Unsupervised neural machine translation (UNMT) addresses a very chellenging scenario in which we are required to build a NMT model using only massive source- and target-side monolingual data. It was firstly proposed by Artetxe et al. (2018a) and Lample et al. (2018a). UNMT has quickly become one of the most popular research task in NMT. We list some recent models achieving SOTA performance. Most studies did experiments on WMT16 en-de test sets and we list model performance (BLEU scores) on these test sets.
+
+| Model                  | de-en | en-de |
+| ---------------------- | ----- | ----- |
+| Lample et al. (2018a)  | 13.3  | 9.6   |
+| Artetxe et al. (2018b) | 23.1  | 18.2  |
+| Lample et al. (2018a)  | 25.2  | 20.2  |
+| Lample et al. (2019)   | 34.3  | 26.4  |
+| Artetxe et al. (2019)  | 34.4  | 26.9  |
+| Ren et al. (2019)      | 35.5  | 27.9  |
+
+
+[23] Mikel Artetxe, Gorka Labaka, Eneko Agirre, and Kyunghyun Cho. 2018a. Unsupervised Neural Machine Translation.  In Proc. of ICLR 2018.\
+[24] Guillaume Lample, Alexis Conneau, Ludovic Denoyer, Marc’Aurelio Ranzato. 2018a. Unsupervised Machine Translation using Monolingual Corpora Only.  In Proc. of ICLR 2018.\
+[25] Mikel Artetxe, Gorka Labaka, and Eneko Agirre. 2018b. Unsupervised Statistical Machine Translation. In Proc. of EMNLP 2018.\
+[26] Guillaume Lample, Myle Ott, Alexis Conneau, Ludovic Denoyer, Marc’Aurelio Ranzato. 2018b. Phrase-Based & Neural Unsupervised Machine Translation. In Proc. of EMNLP 2018.\
+[27] Guillaume Lample and Alexis Conneau. 2019. Cross-lingual language model pretraining.  In Proc. of NeurIPS 2019.\
+[28] Mikel Artetxe, Gorka Labaka, Eneko Agirre. 2019. An Effective Approach to Unsupervised Machine Translation. In Proc. of ACL 2019.\
+[29] Shuo Ren, Yu Wu, Shujie Liu, Ming Zhou and Shuai Ma. 2019. Explicit Cross-lingual Pre-training for Unsupervised Machine Translation. In Proc. of EMNLP 2019.
 
 
 ## Notes

@@ -88,7 +88,7 @@ In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafte
 [16] Elena Voita, Rico Sennrich and Ivan Titov. 2019. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.
 
 # 5. Non-autoregressive Transformer
-Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list the SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT 14 en-de dataset. Transformer employs the base model.
+Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list some SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT 14 en-de dataset. Transformer employs the base model.
 
 | Model            | BLEU  | Speedup |
 | ---------------- | ----- | ------- |

@@ -110,3 +110,6 @@ Different from autoregressive left-to-right decoding, non-autoregressive Transfo
 [21] Bingzhen Wei, Mingxuan Wang, Hao Zhou, Junyang Lin and Xu Sun. 2019. Imitation Learning for Non-autoregressive Neural Machine Translation. In Proc. of ACL 2019. \
 [22] Qiu Ran, Yankai Lin, Peng Li and Jie Zhou. 2019. Guiding Non-Autoregressive Neural Machine Translation Decoding with Reordering Information. arXiv:1911.02215.
 
+
+## Notes
+This project is launched by Jiajun Zhang. If you have questions or comments, please email me (jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com).

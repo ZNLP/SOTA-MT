@@ -121,6 +121,7 @@ Unsupervised neural machine translation (UNMT) addresses a very chellenging scen
 | Lample et al. (2018a)  | 25.2  | 20.2  |
 | Lample et al. (2019)   | 34.3  | 26.4  |
 | Artetxe et al. (2019)  | 34.4  | 26.9  |
+| Song et al. (2019)     | 35.2  | 28.3  |
 | Ren et al. (2019)      | 35.5  | 27.9  |
 
 
@@ -130,7 +131,8 @@ Unsupervised neural machine translation (UNMT) addresses a very chellenging scen
 [26] Guillaume Lample, Myle Ott, Alexis Conneau, Ludovic Denoyer, Marc’Aurelio Ranzato. 2018b. Phrase-Based & Neural Unsupervised Machine Translation. In Proc. of EMNLP 2018.\
 [27] Guillaume Lample and Alexis Conneau. 2019. Cross-lingual language model pretraining.  In Proc. of NeurIPS 2019.\
 [28] Mikel Artetxe, Gorka Labaka, Eneko Agirre. 2019. An Effective Approach to Unsupervised Machine Translation. In Proc. of ACL 2019.\
-[29] Shuo Ren, Yu Wu, Shujie Liu, Ming Zhou and Shuai Ma. 2019. Explicit Cross-lingual Pre-training for Unsupervised Machine Translation. In Proc. of EMNLP 2019.
+[29] Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu and Tie-Yan Liu. 2019. MASS: Masked Sequence to Sequence Pre-training for Language Generation. In Proc. of ICML 2019.\
+[30] Shuo Ren, Yu Wu, Shujie Liu, Ming Zhou and Shuai Ma. 2019. Explicit Cross-lingual Pre-training for Unsupervised Machine Translation. In Proc. of EMNLP 2019.
 
 
 ## Notes

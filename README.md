@@ -103,10 +103,10 @@ Different from autoregressive left-to-right decoding, non-autoregressive Transfo
 \* denotes that they did not report their reimplementation of NAT. # denotes that the authors report their reimplementation of NAT and the BLEU score is 19.69 on WMT14 en-de.
 
 
-[17Jiatao Gu, James Bradbury, Caiming Xiong, Victor OK Li and Richard Socher. 2018. Non-autoregressive Neural Machine Translation. In Proc. of ICLR 2018.
-[18] Junliang Guo, Xu Tan, Di He, Tao Qin, Linli Xu and Tie-Yan Liu. 2019. Non-autoregressive Neural mMchine Translation with Enhanced Decoder Input. In Proc. of AAAI 2019.
-[19] Yiren Wang, Fei Tian, Di He, Tao Qin, ChengXiang Zhai and Tie-Yan Liu. 2019. Non-Autoregressive Machine Translation with Auxiliary Regularization. In Proc. of AAAI 2019.
-[20] Zhuohan Li, Zi Lin, Di He, Fei Tian, Tao Qin, Liwei Wang and Tie-Yan Liu. 2019. Hint-based training for non-autoregressive machine translation. In Proc. of EMNLP 2019.
-[21] Bingzhen Wei, Mingxuan Wang, Hao Zhou, Junyang Lin and Xu Sun. 2019. Imitation Learning for Non-autoregressive Neural Machine Translation. In Proc. of ACL 2019.
+[17 Jiatao Gu, James Bradbury, Caiming Xiong, Victor OK Li and Richard Socher. 2018. Non-autoregressive Neural Machine Translation. In Proc. of ICLR 2018. \
+[18] Junliang Guo, Xu Tan, Di He, Tao Qin, Linli Xu and Tie-Yan Liu. 2019. Non-autoregressive Neural mMchine Translation with Enhanced Decoder Input. In Proc. of AAAI 2019. \
+[19] Yiren Wang, Fei Tian, Di He, Tao Qin, ChengXiang Zhai and Tie-Yan Liu. 2019. Non-Autoregressive Machine Translation with Auxiliary Regularization. In Proc. of AAAI 2019. \
+[20] Zhuohan Li, Zi Lin, Di He, Fei Tian, Tao Qin, Liwei Wang and Tie-Yan Liu. 2019. Hint-based training for non-autoregressive machine translation. In Proc. of EMNLP 2019. \
+[21] Bingzhen Wei, Mingxuan Wang, Hao Zhou, Junyang Lin and Xu Sun. 2019. Imitation Learning for Non-autoregressive Neural Machine Translation. In Proc. of ACL 2019. \
 [22] Qiu Ran, Yankai Lin, Peng Li and Jie Zhou. 2019. Guiding Non-Autoregressive Neural Machine Translation Decoding with Reordering Information. arXiv:1911.02215.
 

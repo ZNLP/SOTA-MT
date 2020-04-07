@@ -87,4 +87,26 @@ In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafte
 [15] Elena Voita, Rico Sennrich and Ivan Titov. 2019. When a good translation is wrong in context: Context-aware machine translation improves on deixis, ellipsis, and lexical cohesion. In Proc. of ACL 2019.\
 [16] Elena Voita, Rico Sennrich and Ivan Titov. 2019. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.
 
+# 5. Non-autoregressive Transformer
+Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list the SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT 14 en-de dataset. Transformer employs the base model.
+
+| Model            | BLEU  | Speedup |
+| ---------------- | ----- | ------- |
+| Transformer[2]   | 27.30 | 1.0×   |
+| NAT[16]          | 17.69 | 15.6×  |
+| *ENAT[17]        | 20.65 | 25.3×  |
+| *NAT-REG[18]     | 20.65 | 27.6×  |
+| *NAT-Hint[19]    | 21.11 | 30.2×  |
+| #Imitate-NAT[20] | 22.44 | 18.6×  |
+| *ReorderNAT[21]  | 22.79 | 16.1×  |
+
+\* denotes that they did not report their reimplementation of NAT. # denotes that the authors report their reimplementation of NAT and the BLEU score is 19.69 on WMT14 en-de.
+
+
+[16Jiatao Gu, James Bradbury, Caiming Xiong, Victor OK Li and Richard Socher. 2018. Non-autoregressive Neural Machine Translation. In Proc. of ICLR 2018.
+[17] Junliang Guo, Xu Tan, Di He, Tao Qin, Linli Xu and Tie-Yan Liu. 2019. Non-autoregressive Neural mMchine Translation with Enhanced Decoder Input. In Proc. of AAAI 2019.
+[18] Yiren Wang, Fei Tian, Di He, Tao Qin, ChengXiang Zhai and Tie-Yan Liu. 2019. Non-Autoregressive Machine Translation with Auxiliary Regularization. In Proc. of AAAI 2019.
+[19] Zhuohan Li, Zi Lin, Di He, Fei Tian, Tao Qin, Liwei Wang and Tie-Yan Liu. 2019. Hint-based training for non-autoregressive machine translation. In Proc. of EMNLP 2019.
+[20] Bingzhen Wei, Mingxuan Wang, Hao Zhou, Junyang Lin and Xu Sun. 2019. Imitation Learning for Non-autoregressive Neural Machine Translation. In Proc. of ACL 2019.
+[21] Qiu Ran, Yankai Lin, Peng Li and Jie Zhou. 2019. Guiding Non-Autoregressive Neural Machine Translation Decoding with Reordering Information. arXiv:1911.02215.
 

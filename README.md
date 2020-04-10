@@ -134,13 +134,7 @@ Unsupervised neural machine translation (UNMT) addresses a very chellenging scen
 [29] Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu and Tie-Yan Liu. 2019. MASS: Masked Sequence to Sequence Pre-training for Language Generation. In Proc. of ICML 2019.\
 [30] Shuo Ren, Yu Wu, Shujie Liu, Ming Zhou and Shuai Ma. 2019. Explicit Cross-lingual Pre-training for Unsupervised Machine Translation. In Proc. of EMNLP 2019.
 
-# Speech Translation
-
-标签（空格分隔）： translation
-
- ---
-
-## Speech Translation
+# 7. Speech Translation
 
 Speech translation is to translate a speech in one language into a text or a speech in another language, corresponding to speech-to-text translation and speech-to-speech translation, respectively. For the sake of evaluation convenience, we only consider speech-to-text translation here.
 
@@ -166,22 +160,21 @@ We report some SOTA models of speech translation on Fisher en-es testset and Aug
 | *Pino et al. (2019)  | 21.7                  |
  ---
 
-*The results of ESPnet are copied from [https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md][1]
+*The results of ESPnet are copied from [https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md][1] \
 *Pino et al., 2019 use WMT14 En-Fr machine translation data to augment training data.
  
- - Sameer Bansal, Herman Kamper, Karen Livescu, Adam Lopez, and Sharon Goldwater. 2018. Low-resource Speech-to-Text Translation. In Proc. of Interspeech 2018.
- - Elizabeth Salesky, Matthias Sperber, and Alan W Black. 2019. Exploring Phoneme-level Speech Representations for End-to-End Speech Translation. In Proc. of ACL 2019.
- - Matthias Sperber, Graham Neubig, Jan Niehues, and Alex Waibel. 2019. Attention-passing Models for Robust and Data-efficient End-to-End Speech Translation. Transactions of ACL, 7:313–325.
- - Ron J. Weiss, Jan Chorowski, Navdeep Jaitly, Yonghui Wu, and Zhifeng Chen. 2017. Sequence-to-Sequence Models can Directly Translate Foreign Speech. In Proc. of Interspeech, 2017.
+[31] Sameer Bansal, Herman Kamper, Karen Livescu, Adam Lopez, and Sharon Goldwater. 2018. Low-resource Speech-to-Text Translation. In Proc. of Interspeech 2018.
+[32] Elizabeth Salesky, Matthias Sperber, and Alan W Black. 2019. Exploring Phoneme-level Speech Representations for End-to-End Speech Translation. In Proc. of ACL 2019.
+[33] Matthias Sperber, Graham Neubig, Jan Niehues, and Alex Waibel. 2019. Attention-passing Models for Robust and Data-efficient End-to-End Speech Translation. Transactions of ACL, 7:313–325.
+[34] Ron J. Weiss, Jan Chorowski, Navdeep Jaitly, Yonghui Wu, and Zhifeng Chen. 2017. Sequence-to-Sequence Models can Directly Translate Foreign Speech. In Proc. of Interspeech, 2017.
+[35] Alexandre Berard, Laurent Besacier, Ali Can Kocabiyikoglu, and Olivier Pietquin. 2018. End-to-End Automatic Speech Translation of Audiobooks. In Proc. of ICASSP 2018.
+[36] Parnia Bahar, Albert Zeyer, Ralf Schlter, and Hermann Ney. 2019. On Using Specaugment for End-to-End Speech Translation. arXiv preprint arXiv:1911.08876.
+[37] Yuchen Liu, Hao Xiong, Jiajun Zhang, Zhongjun He, Hua Wu, Haifeng Wang, and Chengqing Zong. 2019. End-to-End Speech Translation with Knowledge Distillation. In Proc. of Interspeech 2019.
+[38] Juan Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, Arya D. McCarthy, and Deepak Gopinath. 2019. Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade. In Proc. of IWSLT 2019.
+[39] Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020. Bridging the Gap between Pretraining and Fine-tuning for End-to-End Speech Translation. In Proc. of AAAI 2020.
 
- - Alexandre Berard, Laurent Besacier, Ali Can Kocabiyikoglu, and Olivier Pietquin. 2018. End-to-End Automatic Speech Translation of Audiobooks. In Proc. of ICASSP 2018.
- - Parnia Bahar, Albert Zeyer, Ralf Schlter, and Hermann Ney. 2019. On Using Specaugment for End-to-End Speech Translation. arXiv preprint arXiv:1911.08876.
- - Yuchen Liu, Hao Xiong, Jiajun Zhang, Zhongjun He, Hua Wu, Haifeng Wang, and Chengqing Zong. 2019. End-to-End Speech Translation with Knowledge Distillation. In Proc. of Interspeech 2019.
- - Juan Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, Arya D. McCarthy, and Deepak Gopinath. 2019. Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade. In Proc. of IWSLT 2019.
- - Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020. Bridging the Gap between Pretraining and Fine-tuning for End-to-End Speech Translation. In Proc. of AAAI 2020.
 
-
-  [1]: https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md
+[1]: https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md
 
 
 ## Notes

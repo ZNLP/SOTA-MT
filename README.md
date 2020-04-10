@@ -160,7 +160,7 @@ We report some SOTA models of speech translation on Fisher en-es testset and Aug
 | *Pino et al. (2019)  | 21.7                  |
  ---
 
-*The results of ESPnet are copied from [https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md][1] \
+*The results of ESPnet are copied from [https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md][40] \
 *Pino et al., 2019 use WMT14 En-Fr machine translation data to augment training data.
  
 [31] Sameer Bansal, Herman Kamper, Karen Livescu, Adam Lopez, and Sharon Goldwater. 2018. Low-resource Speech-to-Text Translation. In Proc. of Interspeech 2018.\
@@ -174,7 +174,7 @@ We report some SOTA models of speech translation on Fisher en-es testset and Aug
 [39] Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020. Bridging the Gap between Pretraining and Fine-tuning for End-to-End Speech Translation. In Proc. of AAAI 2020.
 
 
-[1]: https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md
+[40]: https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md
 
 
 ## Notes

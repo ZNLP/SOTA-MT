@@ -177,5 +177,4 @@ Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020. Bridging the
 
 
 ## Notes
-This project is launched by Jiajun Zhang and maintained by the MT team members (Yuchen Liu, Xiaomian Kang, Long Zhou and et al.) in CASIA. \
-If you have questions or comments, please drop an email to jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com.
+This project is launched by Jiajun Zhang and maintained by the MT team members (Yuchen Liu, Xiaomian Kang, Long Zhou and et al.) in CASIA. If you have questions or comments, please drop an email to jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com.

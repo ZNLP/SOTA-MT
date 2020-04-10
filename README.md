@@ -6,7 +6,7 @@ Machine translation has entered the era of neural methods, which attracts more a
 
 There are several research directions in neural machine translation, including architecture design, multimodal translation, speech and simultaneuous translation, document translation, multilingual translation, semi-supervised translation, unsupervised translation, domain adaptation, non-autoregressive translation and etc. It is a pity that there is no widely used benchmark datasets in many research tasks such as document translation, multilingual translation and domain adaptation. Thus, we try our best to record the SOTA performance for the tasks in which there is dataset employed by several papers.
 
-Note that we would definitely miss some new SOTA model and please remind us if you know. Furthermore, it is the best way to employ SacreBLEU[1] to report BLEU scores for fair comparison on widely used datasets. However, many papers do not apply it.
+Note that we would definitely miss some new SOTA models and please remind us if you know. Furthermore, it is the best way to employ SacreBLEU[1] to report BLEU scores for fair comparison on widely used datasets. However, many papers do not apply it.
 
 # 2. Architecture Design
 
@@ -178,4 +178,5 @@ We report some SOTA models of speech translation on Fisher en-es testset and Aug
 
 
 ## Notes
-This project is launched by Jiajun Zhang and maintained by the MT team members in CASIA. If you have questions or comments, please drop an email to jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com.
+This project is launched by Jiajun Zhang and maintained by the MT team members (Yuchen Liu, Xiaomian Kang, Long Zhou and et al.) in CASIA. \
+If you have questions or comments, please drop an email to jjzhang@nlpr.ia.ac.cn or jiajunzhangwing@gmail.com.

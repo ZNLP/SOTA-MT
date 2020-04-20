@@ -18,6 +18,7 @@ We report architecture exploration starting from Transformer with nearly the sam
 | Relative Transfromer (Shaw et al., 2018) | 29.2        | \*multi-bleu |
 | DynamicConv (Wu et al., 2019)          | 29.7        | multi-bleu  |
 | Evolved Transformer (So et al., 2019)  | 29.8        | multi-bleu  |
+| PRIME (Zhao et al., 2019)  | 29.9        | multi-bleu  |
 | Macaron Net (Lu et al., 2019)          | 30.2        | \*multi-bleu |
 
 \* means that it is not mentioned in the paper and we guess from their codes.
@@ -28,6 +29,8 @@ Peter Shaw, Jakob Uszkoreit and Ashish Vaswani. 2018. Self-Attention with Relati
 David R. So, Chen Liang and Quoc V. Le. 2019. The Evolved Transformer. In Proc. of ICML 2019.\
 Ashish Vaswani , Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser and Illia Polosukhin. 2017. Attention Is All You Need. In Proc. of NIPS 2017.\
 Felix Wu, Angela Fan, Alexei Baevski, Yann N. Dauphin and Michael Auli. 2019. Pay Less Attention with Lightweight and Dynamic Convolutions. In Proc. of ICLR 2019.
+Guangxiang Zhao, Xu Sun, Jingjing Xu, Zhiyuan Zhang and Liangchen Luo. 2019. MUSE: Parallel Multi-Scale Attention for Sequence to Sequence Learning. arXiv:1911.09483
+
 
 # 3. Document-level Neural Machine Translation
 In general, document-level machine translation aims at exploiting the useful document-level information (multiple sentences around the current sentence or the whole document) to improve the translation quality of the current sentence as well as the coherence and cohension of the translated document. Unfortunately, there is no widely used dataset in document-level translation.

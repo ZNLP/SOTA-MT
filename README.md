@@ -1,5 +1,5 @@
 # SOTA-MT
-This project attempts to maintain the SOTA performance in machine translation. We also give a detailed review of recent progress and potential research trends for NMT, available at https://arxiv.org/abs/2004.05809. Any comments and suggestions are welcome.
+This project attempts to maintain the SOTA performance on various sub-tasks in machine translation. We also give a detailed review of recent progress and potential research trends for NMT, available at https://arxiv.org/abs/2004.05809. Any comments and suggestions are welcome.
 
 # 1. Introduction
 Machine translation has entered the era of neural methods, which attracts more and more researchers. Currently, hundreds of MT papers are published each year and it is a bit difficult for researchers to know the SOTA models in each research direction. Accordingly, we try to record the SOTA performance in this project.

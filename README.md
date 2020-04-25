@@ -158,7 +158,8 @@ We report some SOTA models of speech translation on Fisher en-es testset and Aug
 | Bahar et al. (2019) | 17.0                  |
 | *ESPnet              | 16.76                 |
 | Liu et al. (2019)    | 17.02                 |
-| Wang et al. (2020)   | 17.05                 |
+| Wang et al. (2020a)   | 17.05                 |
+| Wang et al. (2020b)   | 17.66                 |
 | *Pino et al. (2019)  | 21.7                  |
  ---
 
@@ -173,7 +174,8 @@ Juan Pino, Liezl Puzon, Jiatao Gu, Xutai Ma, Arya D. McCarthy, and Deepak Gopina
 Elizabeth Salesky, Matthias Sperber, and Alan W Black. 2019. Exploring Phoneme-level Speech Representations for End-to-End Speech Translation. In Proc. of ACL 2019.\
 Matthias Sperber, Graham Neubig, Jan Niehues, and Alex Waibel. 2019. Attention-passing Models for Robust and Data-efficient End-to-End Speech Translation. Transactions of ACL, 7:313–325.\
 Ron J. Weiss, Jan Chorowski, Navdeep Jaitly, Yonghui Wu, and Zhifeng Chen. 2017. Sequence-to-Sequence Models can Directly Translate Foreign Speech. In Proc. of Interspeech, 2017.\
-Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020. Bridging the Gap between Pretraining and Fine-tuning for End-to-End Speech Translation. In Proc. of AAAI 2020.
+Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020. Bridging the Gap between Pretraining and Fine-tuning for End-to-End Speech Translation. In Proc. of AAAI 2020.\
+Chengyi Wang, Yu Wu, Shujie Liu, Ming Zhou and Zhenglu Yang. 2020. Curriculum Pre-training for End-to-End Speech Translation. In Proc. of ACL 2020 (arXiv:2004.10093).
 
 
 [1]: https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md

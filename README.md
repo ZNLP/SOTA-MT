@@ -109,6 +109,7 @@ Unsupervised neural machine translation (UNMT) addresses a very chellenging scen
 | Artetxe et al. (2019)  | 34.4  | 26.9  |
 | Song et al. (2019)     | 35.2  | 28.3  |
 | Ren et al. (2019)      | 35.5  | 27.9  |
+| Li et al. (2020)      | 35.6  | 28.4  |
 
 
 Mikel Artetxe, Gorka Labaka, Eneko Agirre, and Kyunghyun Cho. 2018a. Unsupervised Neural Machine Translation.  In Proc. of ICLR 2018.\
@@ -118,7 +119,8 @@ Guillaume Lample, Myle Ott, Alexis Conneau, Ludovic Denoyer, Marc’Aurelio Ranz
 Guillaume Lample and Alexis Conneau. 2019. Cross-lingual language model pretraining.  In Proc. of NeurIPS 2019.\
 Mikel Artetxe, Gorka Labaka, Eneko Agirre. 2019. An Effective Approach to Unsupervised Machine Translation. In Proc. of ACL 2019.\
 Shuo Ren, Yu Wu, Shujie Liu, Ming Zhou and Shuai Ma. 2019. Explicit Cross-lingual Pre-training for Unsupervised Machine Translation. In Proc. of EMNLP 2019.\
-Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu and Tie-Yan Liu. 2019. MASS: Masked Sequence to Sequence Pre-training for Language Generation. In Proc. of ICML 2019.
+Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu and Tie-Yan Liu. 2019. MASS: Masked Sequence to Sequence Pre-training for Language Generation. In Proc. of ICML 2019.\
+ Zuchao Li, Rui Wang, Kehai Chen, Masao Utiyama, Eiichiro Sumita, Zhuosheng Zhang, and Hai Zhao. 2020. Data-dependent Gaussian Prior Objective for Language Generation. In Proc. of ICLR 20208
 
 # 6. Multimodal Translation
 Generally speaking, multimodal translation addresses the translation task in which text, image and speech are all available. Currently, multimodal translation specially refers to pair image-text translation.

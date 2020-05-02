@@ -64,6 +64,7 @@ In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafte
 | Transformer   | 33.91 | 50.0      | 45.9                | 53.0                   | 28.4           |
 | CADec (Voita et al., 2019a)     | 33.86 | 81.6      | 58.1                | 72.2                   | 80.0           |
 | DocRepair (Voita et al., 2019b) | 34.60 | 91.8      | 80.6                | 86.4                   | 75.2           |
+| Layer-wise Weighting (Xu et al., 2020)     | 32.75 | 85.4      | 64.3                | 77.1                  | 81.3           |
 
 
 Sameen Maruf, Andr´e FT Martins and Gholamreza Haffari. 2019. Selective attention for context-aware neural machine translation. In Proc. of NAACL 2019.\
@@ -72,7 +73,8 @@ Elena Voita, Rico Sennrich and Ivan Titov. 2019a. When a good translation is wro
 Elena Voita, Rico Sennrich and Ivan Titov. 2019b. Context-Aware Monolingual Repair for Neural Machine Translation. In Proc. of EMNLP 2019.\
 Zhengxin Yang, Jinchao Zhang, Fandong Meng, Shuhao Gu, Yang Feng and Jie Zhou. 2019. Enhancing context modeling with a query-guided capsule network for document-level translation. In Proc. of EMNLP 2019.\
 Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.\
-Zaixiang Zheng, Xiang Yue, Shujian Huang, Jiajun Chen and Alexandra Birch. 2020. Toward Making the Most of Context in Neural Machine Translation. arXiv:2002.07982.
+Zaixiang Zheng, Xiang Yue, Shujian Huang, Jiajun Chen and Alexandra Birch. 2020. Toward Making the Most of Context in Neural Machine Translation. arXiv:2002.07982.\
+Hongfei Xu, Deyi Xiong, Josef van Genabith and Qiuhui Liu. 2020. Efficient Context-Aware Neural Machine Translation with Layer-Wise Weighting and Input-Aware Gating. In Proc. of IJCAI 2020.\
 
 # 4. Non-autoregressive Transformer
 Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list some SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT14 en-de dataset. Transformer employs the base model.

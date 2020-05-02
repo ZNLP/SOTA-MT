@@ -74,7 +74,7 @@ Elena Voita, Rico Sennrich and Ivan Titov. 2019b. Context-Aware Monolingual Repa
 Zhengxin Yang, Jinchao Zhang, Fandong Meng, Shuhao Gu, Yang Feng and Jie Zhou. 2019. Enhancing context modeling with a query-guided capsule network for document-level translation. In Proc. of EMNLP 2019.\
 Jiacheng Zhang, Huanbo Luan, Maosong Sun, FeiFei Zhai, Jingfang Xu, Min Zhang and Yang Liu. 2018. Improving the transformer translation model with document-level context. In Proc. of EMNLP 2018.\
 Zaixiang Zheng, Xiang Yue, Shujian Huang, Jiajun Chen and Alexandra Birch. 2020. Toward Making the Most of Context in Neural Machine Translation. arXiv:2002.07982.\
-Hongfei Xu, Deyi Xiong, Josef van Genabith and Qiuhui Liu. 2020. Efficient Context-Aware Neural Machine Translation with Layer-Wise Weighting and Input-Aware Gating. In Proc. of IJCAI 2020.\
+Hongfei Xu, Deyi Xiong, Josef van Genabith and Qiuhui Liu. 2020. Efficient Context-Aware Neural Machine Translation with Layer-Wise Weighting and Input-Aware Gating. In Proc. of IJCAI 2020.
 
 # 4. Non-autoregressive Transformer
 Different from autoregressive left-to-right decoding, non-autoregressive Transformer (NAT), which is firstly proposed by Gu et al. (2018), generates the target language sentence by outputting all the target words simultaneously in parallel. Thanks to the significant decoding speedup, NAT has drawn more and more attention in recent research. Here, we list some SOTA methods that achieve similar or higher inference efficiency compared to Gu et al. (2018) while using single model without rescoring. The comparisons are also conducted on WMT14 en-de dataset. Transformer employs the base model.

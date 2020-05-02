@@ -61,10 +61,10 @@ In 2019, Voita et al. use En-Ru OpenSubtitles2018 corpus, and create hand-crafte
 
 | Model         | BLEU  | Deixis(%) | Lexical cohesion(%) | Ellipsis inflection(%) | Ellipsis VP(%) |
 | ------------- | ----- | --------- | ------------------- | ---------------------- | -------------- |
-| Transformer   | 33.91 | 50.0      | 45.9                | 53.0                   | 28.4           |
-| CADec (Voita et al., 2019a)     | 33.86 | 81.6      | 58.1                | 72.2                   | 80.0           |
+| Transformer   | 32.40 | 50.0      | 45.9                | 53.0                   | 28.4           |
+| CADec (Voita et al., 2019a)     | 32.38 | 81.6      | 58.1                | 72.2                   | 80.0           |
 | DocRepair (Voita et al., 2019b) | 34.60 | 91.8      | 80.6                | 86.4                   | 75.2           |
-| Layer-wise Weighting (Xu et al., 2020)     | 32.75 | 85.4      | 64.3                | 77.1                  | 81.3           |
+| Layer-Wise Weighting (Xu et al., 2020)     | 32.75 | 85.4      | 64.3                | 77.1                  | 81.3           |
 
 
 Sameen Maruf, Andr´e FT Martins and Gholamreza Haffari. 2019. Selective attention for context-aware neural machine translation. In Proc. of NAACL 2019.\

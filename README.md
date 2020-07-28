@@ -152,29 +152,37 @@ The traditional approach of speech translation is in a pipeline paradigm with th
 
 We report some SOTA models of speech translation on Fisher en-es testset and Augmented Librispeech en-fr testset (case-insensitive tokenized BLEU).
 
-| Model                | Fisher |
+| Method     | Fisher |
 | :-:                  | :-:    |
-| Bansal et al. (2018)  | 29.4   |
-| Salesky et al. (2019) | 33.7   |
-| Sperber et al. (2019) | 36.7   |
-| Weiss et al. (2017)   | 47.3   |
-| *ESPet                | 48.39  |
+| LSTM ST (Bansal et al., 2018)  | 29.4   |
+| RNN ST (Stoian et al., 2020)| 34.6|
+|+pretrained+augmented | 37.8|
+| Multi-task+pre-trained word embedding (Chuang et al., 2020)| 36.32
+| Attention-passing model (Sperber et al., 2019) | 36.7   |
+| Phone Segmentation (Salesky et al., 2019) | 38.8   |
+|Hybrid cascade (Salesky et al., 2020) | 45.0   |
+| LSTM+multi-task(Weiss et al., 2017)   | 47.3   |
+| LSTM ST+pre-train+SpecAugment (ESPet*)         | 48.39  |
 
-| Model               | Augmented Librispeech |
-| :-:                 | :-:                   |
-| Berard et al. (2018) | 13.4                  |
-| Bahar et al. (2019) | 17.0                  |
-| *ESPnet              | 16.76                 |
-| Liu et al. (2019)    | 17.02                 |
-| Wang et al. (2020a)   | 17.05                 |
-| Wang et al. (2020b)   | 17.66                 |
-| *Pino et al. (2019)  | 21.7                  |
+| Method  | Enc pre-train | Dec pre-train | Augmented Librispeech |
+| :-:  | :-: |    :-:      |      :-:         |
+| LSTM ST (Berard et al., 2018) |  |  | 12.90  |
+| +pre-train+multitask | ✔ | ✔   | 13.40 |
+| LSTM ST+pretrain (ESPnet*)| ✔| ✔ |16.68 |
+| Transformer+pre-train (Liu et al., 2019) | ✔| | 14.30|
+| +knowledge distillation |✔ |  | 17.02 |
+| TCEN-LSTM (Wang et al., 2020a) | ✔| ✔ | 17.05 |
+|Transformer + ASR pre-train (Wang et al., 2020b) | ✔| ✔ | 15.97|
+| +curriculum pre-train | ✔| | 17.66 |
+| LSTM+pre-train+SpecAugment (Bahar et al., 2019)| ✔(236h)| ✔ | 17.00                  |
+| Multilingual ST+pre-train(Inaguma et al., 2019) | ✔(472h)| | 17.60 |
+| Transformer+ASR pre-train (Wang et al., 2020b)| ✔(960)| |16.90 |
+| +curriculum pre-train | ✔(960)| |18.01 |
+| VGGTransformer(Pino et al. 2019)    |   ✔(960h)   | ✔(WMT14)   | 21.65 |
  ---
 
 *The results of ESPnet are copied from [https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md][1] \
-*Pino et al., 2019 use WMT14 En-Fr machine translation data to augment training data.
- 
- Parnia Bahar, Albert Zeyer, Ralf Schlter, and Hermann Ney. 2019. On Using Specaugment for End-to-End Speech Translation. arXiv preprint arXiv:1911.08876.\
+Parnia Bahar, Albert Zeyer, Ralf Schlter, and Hermann Ney. 2019. On Using Specaugment for End-to-End Speech Translation. arXiv preprint arXiv:1911.08876.\
 Sameer Bansal, Herman Kamper, Karen Livescu, Adam Lopez, and Sharon Goldwater. 2018. Low-resource Speech-to-Text Translation. In Proc. of Interspeech 2018.\
 Alexandre Berard, Laurent Besacier, Ali Can Kocabiyikoglu, and Olivier Pietquin. 2018. End-to-End Automatic Speech Translation of Audiobooks. In Proc. of ICASSP 2018.\
 Yuchen Liu, Hao Xiong, Jiajun Zhang, Zhongjun He, Hua Wu, Haifeng Wang, and Chengqing Zong. 2019. End-to-End Speech Translation with Knowledge Distillation. In Proc. of Interspeech 2019.\
@@ -183,7 +191,10 @@ Elizabeth Salesky, Matthias Sperber, and Alan W Black. 2019. Exploring Phoneme-l
 Matthias Sperber, Graham Neubig, Jan Niehues, and Alex Waibel. 2019. Attention-passing Models for Robust and Data-efficient End-to-End Speech Translation. Transactions of ACL, 7:313–325.\
 Ron J. Weiss, Jan Chorowski, Navdeep Jaitly, Yonghui Wu, and Zhifeng Chen. 2017. Sequence-to-Sequence Models can Directly Translate Foreign Speech. In Proc. of Interspeech, 2017.\
 Chengyi Wang, Yu Wu, Shujie Liu, Zhenglu Yang, and Ming Zhou. 2020a. Bridging the Gap between Pretraining and Fine-tuning for End-to-End Speech Translation. In Proc. of AAAI 2020.\
-Chengyi Wang, Yu Wu, Shujie Liu, Ming Zhou and Zhenglu Yang. 2020b. Curriculum Pre-training for End-to-End Speech Translation. In Proc. of ACL 2020 (arXiv:2004.10093).
+Chengyi Wang, Yu Wu, Shujie Liu, Ming Zhou and Zhenglu Yang. 2020b. Curriculum Pre-training for End-to-End Speech Translation. In Proc. of ACL 2020 (arXiv:2004.10093).\
+Mihaela C Stoian, Sameer Bansal, and Sharon Goldwater. 2020. Analyzing ASR pretraining for low-resource speech-to-text translation. Proc. of ICASSP. \
+Salesky, Elizabeth, and Alan W. Black. 2020. Phone Features Improve Speech Translation. In Proc. of ACL 2020. \
+Chuang, Shun-Po, et al. 2020. Worse WER, but Better BLEU? Leveraging Word Embedding as Intermediate in Multitask End-to-End Speech Translation. In Proc. of ACL.
 
 
 [1]: https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS.md

@@ -176,8 +176,8 @@ We report some SOTA models of speech translation on Fisher en-es testset and Aug
 | +curriculum pre-train | ✔| | 17.66 |
 | LSTM+pre-train+SpecAugment (Bahar et al., 2019)| ✔(236h)| ✔ | 17.00                  |
 | Multilingual ST+pre-train(Inaguma et al., 2019) | ✔(472h)| | 17.60 |
-| Transformer+ASR pre-train (Wang et al., 2020b)| ✔(960)| |16.90 |
-| +curriculum pre-train | ✔(960)| |18.01 |
+| Transformer+ASR pre-train (Wang et al., 2020b)| ✔(960h)| |16.90 |
+| +curriculum pre-train | ✔(960h)| |18.01 |
 | VGGTransformer(Pino et al. 2019)    |   ✔(960h)   | ✔(WMT14)   | 21.65 |
  ---
 
